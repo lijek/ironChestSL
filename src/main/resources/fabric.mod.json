@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "ironchest",
+  "version": "${version}",
+
+  "name": "Iron Chest",
+  "description": "This is a port of Iron Chest to StationLoader! This originates from ",
+  "authors": [
+    "lijek",
+    "Meefy"
+  ],
+  "contact": {
+    "homepage": "https://glass-launcher.net/",
+    "sources": "https://github.com/lijek/ironChestSL"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/ironChest/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "stationmod": [
+      "net.glasslauncher.ironchest.IronChestMod"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "1.0.0-beta.7.3",
+    "stationloader": "*"
+  }
+}

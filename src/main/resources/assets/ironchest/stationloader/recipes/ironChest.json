@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key":
+  {
+    "X":
+    {
+      "item": "minecraft:ingotIron"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result":
+  {
+    "item": "ironchest:materialchest",
+    "count": 1,
+    "damage": 0
+  }
+}

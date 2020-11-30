@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key":
+  {
+    "X":
+    {
+      "item": "minecraft:emerald"
+    },
+    "C": {
+      "item": "ironchest:materialchest",
+      "damage": 1
+    }
+  },
+  "result":
+  {
+    "item": "ironchest:materialchest",
+    "count": 1,
+    "damage": 2
+  }
+}
